@@ -1,0 +1,17 @@
+{
+    "require": {
+		"monolog/monolog": "1.22.*",
+		"phpmailer/phpmailer": "~5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "libraries"
+        ]
+    },
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
+}
